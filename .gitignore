@@ -1,0 +1,18 @@
+# Archivos de compilación
+/target/
+*.class
+
+# Configuración local
+*.idea/
+*.iml
+*.log
+.classpath
+.project
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Credenciales y configuraciones sensibles
+application.properties
+application.yml
