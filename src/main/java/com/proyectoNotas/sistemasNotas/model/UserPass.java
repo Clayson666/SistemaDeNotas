@@ -21,6 +21,6 @@ public class UserPass {
     @JoinColumn(name = "teacher_id", nullable = false, unique = true)
     private Teacher teacher;
     private String userName;
-    private String password;
+    private String pass;
     
 }
