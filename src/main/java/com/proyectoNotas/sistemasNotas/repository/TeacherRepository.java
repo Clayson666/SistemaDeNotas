@@ -1,7 +1,12 @@
 package com.proyectoNotas.sistemasNotas.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface TeacherRepository extends JpaRepository <TeacherRepository, Integer>{
+import com.proyectoNotas.sistemasNotas.model.Teacher;
+
+
+@Repository
+public interface TeacherRepository extends JpaRepository <Teacher, Integer>{
 
 }
