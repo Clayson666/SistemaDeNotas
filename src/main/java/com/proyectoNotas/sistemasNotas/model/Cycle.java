@@ -12,6 +12,6 @@ public class Cycle {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String nombreCiclo;
+    private String cycleName;
 
 }
